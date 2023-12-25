@@ -16,6 +16,9 @@
 		DC90E21A2B371C6100B56D8C /* BookMyHotelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90E2192B371C6100B56D8C /* BookMyHotelUITestsLaunchTests.swift */; };
 		DC90E2332B371FCD00B56D8C /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90E2322B371FCD00B56D8C /* ExploreView.swift */; };
 		DC90E2352B3721F900B56D8C /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90E2342B3721F900B56D8C /* ListingItemView.swift */; };
+		DC90E2392B372BD700B56D8C /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90E2382B372BD700B56D8C /* SearchAndFilterBar.swift */; };
+		DC90E23B2B37EFCD00B56D8C /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90E23A2B37EFCD00B56D8C /* ListingDetailView.swift */; };
+		DC90E23E2B37F36C00B56D8C /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90E23D2B37F36C00B56D8C /* ImageCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		DC90E2192B371C6100B56D8C /* BookMyHotelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMyHotelUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DC90E2322B371FCD00B56D8C /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		DC90E2342B3721F900B56D8C /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		DC90E2382B372BD700B56D8C /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
+		DC90E23A2B37EFCD00B56D8C /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
+		DC90E23D2B37F36C00B56D8C /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,7 @@
 		DC90E2282B371C6D00B56D8C /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				DC90E23C2B37F2A400B56D8C /* Components */,
 				DC90E22B2B371D0B00B56D8C /* Explore */,
 				DC90E22C2B371D1100B56D8C /* Listings */,
 				DC90E22D2B371D1900B56D8C /* MapView */,
@@ -182,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				DC90E2322B371FCD00B56D8C /* ExploreView.swift */,
+				DC90E2382B372BD700B56D8C /* SearchAndFilterBar.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -190,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				DC90E2342B3721F900B56D8C /* ListingItemView.swift */,
+				DC90E23A2B37EFCD00B56D8C /* ListingDetailView.swift */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -227,6 +236,14 @@
 			children = (
 			);
 			path = WishLists;
+			sourceTree = "<group>";
+		};
+		DC90E23C2B37F2A400B56D8C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DC90E23D2B37F36C00B56D8C /* ImageCarouselView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +379,9 @@
 				DC90E1FF2B371C5F00B56D8C /* ContentView.swift in Sources */,
 				DC90E2352B3721F900B56D8C /* ListingItemView.swift in Sources */,
 				DC90E2332B371FCD00B56D8C /* ExploreView.swift in Sources */,
+				DC90E2392B372BD700B56D8C /* SearchAndFilterBar.swift in Sources */,
+				DC90E23B2B37EFCD00B56D8C /* ListingDetailView.swift in Sources */,
+				DC90E23E2B37F36C00B56D8C /* ImageCarouselView.swift in Sources */,
 				DC90E1FD2B371C5F00B56D8C /* BookMyHotelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
